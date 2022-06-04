@@ -2,6 +2,9 @@
 
 
 
+<input type="button" value="Export" onclick="location.href='@Url.Action("Export", "Home",new { fileName = "Millennials"})'" />
+
+
 <table class="table">
     <thead>
         <tr>
@@ -11,7 +14,7 @@
             <th>
                 Last Name
             </th>
-           
+
             <th>
                 IsMillennial
             </th>
@@ -30,7 +33,7 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.IsMillennial)
                 </td>
-               
+
             </tr>
         }
     </tbody>

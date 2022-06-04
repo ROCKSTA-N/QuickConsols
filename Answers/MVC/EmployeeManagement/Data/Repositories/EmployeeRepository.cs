@@ -69,7 +69,7 @@ namespace Data.Repositories
                         SELECT TOP 1 MAX(totalSalary) 'Salary' , DEP.name 'Department' , DEP.id 'Id'
                         FROM departments DEP INNER JOIN #TEMP
                         ON #TEMP.departmentId = DEP.id
-                        GROUP BY  DEP.name
+                        GROUP BY  DEP.name , DEP.id
                         ORDER BY MAX(totalSalary) DESC
             ";
 

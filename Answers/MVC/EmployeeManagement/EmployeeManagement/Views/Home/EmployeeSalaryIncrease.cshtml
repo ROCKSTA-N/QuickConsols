@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<Application.Models.EmployeeSalaryIncreaseDto>
 
+<input type="button" value="Export" onclick="location.href='@Url.Action("Export", "Home",new { fileName = "EmployeeSalaryIncrease"})'" />
 
 
 <table class="table">
@@ -12,7 +13,7 @@
                 Last Name
             </th>
             <th>
-Department
+                Department
             </th>
             <th>
                 Salary

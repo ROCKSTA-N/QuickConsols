@@ -2,6 +2,9 @@
 
 
 
+<input type="button" value="Export" onclick="location.href='@Url.Action("Export", "Home",new { fileName = "DepartmentAverageSalaryStatsDto"})'" />
+
+
 <table class="table">
     <thead>
         <tr>
@@ -17,18 +20,19 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.DepartmentName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AverageSalary)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EmployeeCount)
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DepartmentName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AverageSalary)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeCount)
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

@@ -3,6 +3,11 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
+
+<input type="button" value="Export" onclick="location.href='@Url.Action("Export", "Home",new { fileName = "Employees"})'" />
+
+
 <table class="table">
     <thead>
         <tr>
