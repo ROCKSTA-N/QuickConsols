@@ -1,0 +1,26 @@
+﻿@model Application.Models.DepartmentAverageSalaryStatsDto
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Department
+            </th>
+            <th>
+                Average Salary
+            </th>
+        </tr>
+    </thead>
+    <tbody> 
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.DepartmentName)
+            </td>
+            <td>
+                @Html.DisplayNameFor(model => model.AverageSalary)
+            </td> 
+        </tr>
+    </tbody>
+</table>

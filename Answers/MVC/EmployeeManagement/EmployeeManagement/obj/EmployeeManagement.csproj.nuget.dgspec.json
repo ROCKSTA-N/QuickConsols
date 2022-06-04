@@ -1,0 +1,320 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\rmanganye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rmanganye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\rmanganye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rmanganye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.27.0.35380, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\rmanganye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rmanganye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
+        "projectName": "EmployeeManagement",
+        "projectPath": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
+        "packagesPath": "C:\\Users\\rmanganye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\EmployeeManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rmanganye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Application\\Application.csproj"
+              },
+              "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\rmanganye\\Downloads\\Candidate Test\\Candidate Test\\Candidate Test\\Answers\\MVC\\EmployeeManagement\\Data\\Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
